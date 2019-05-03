@@ -1,2 +1,2 @@
-# foundations
-All CS foundations (data structures and algorithms) in one package
+# lemniscate
+All algorithms in one package
