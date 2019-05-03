@@ -1,0 +1,32 @@
+{
+  "name": "foundations",
+  "version": "1.0.0",
+  "codename": "alpha",
+  "description": "All CS foundations (data structures and algorithms) in one package",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mismayil/foundations.git"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "foundations",
+    "cs"
+  ],
+  "author": "Mahammad Ismayilzada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mismayil/foundations/issues"
+  },
+  "homepage": "https://github.com/mismayil/foundations#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
