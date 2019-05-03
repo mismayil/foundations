@@ -1,32 +1,34 @@
 {
-  "name": "foundations",
+  "name": "lemniscate",
   "version": "1.0.0",
   "codename": "alpha",
-  "description": "All CS foundations (data structures and algorithms) in one package",
-  "main": "index.js",
+  "description": "All algorithms in one package",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mismayil/foundations.git"
+    "url": "git+https://github.com/mismayil/lemniscate.git"
   },
   "keywords": [
     "data-structures",
     "algorithms",
     "foundations",
-    "cs"
+    "computer science",
+    "math"
   ],
   "author": "Mahammad Ismayilzada",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mismayil/foundations/issues"
+    "url": "https://github.com/mismayil/lemniscate/issues"
   },
-  "homepage": "https://github.com/mismayil/foundations#readme",
+  "homepage": "https://github.com/mismayil/lemniscate#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.7.1"
   },
   "dependencies": {}
 }
