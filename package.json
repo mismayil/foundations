@@ -1,6 +1,6 @@
 {
   "name": "lemniscate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "codename": "alpha",
   "description": "All algorithms in one package",
   "main": "./dist/index.js",
